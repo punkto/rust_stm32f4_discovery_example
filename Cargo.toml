@@ -11,10 +11,14 @@ cortex-m-rt = "0.7"
 cortex-m-semihosting = "0.3.3"
 panic-halt = "0.2.0"
 
+# https://crates.io/crates/bme280
+bme280 = "0.2"
+
 # https://github.com/stm32-rs/stm32f4xx-hal
 [dependencies.stm32f4xx-hal]
 version = "0.14.0"
 features = ["stm32f407"]
+
 
 # this lets you use `cargo fix`!
 [[bin]]
